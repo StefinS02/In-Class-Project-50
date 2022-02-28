@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(228, 119, 18);
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgb(95, 152, 160);
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: aquamarine;
+}
+
+.menu{
+    display:flex;
+    justify-content: right;
+}
+
+.item{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: solid;
+}
+
